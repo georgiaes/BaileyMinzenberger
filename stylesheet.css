@@ -1,0 +1,297 @@
+html{
+     position: relative;
+}
+ body {
+     font-family: 'Vidaloka', serif;
+     font-size: 17px;
+     background-color: #b3cdd1;
+     background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+     background-repeat: repeat;
+}
+ @font-face {
+     font-family: JMH Typewriter-Thin;
+     src: url('JMH Typewriter-Thin.otf');
+}
+ p {
+     font-family: 'Roboto', sans-serif;
+     font-size: 17px;
+     color: antiquewhite;
+}
+ h2 { 
+     font-family: 'Big Caslon', serif, thin;
+     font-size: 25pt;
+     color: antiquewhite;
+     text-transform: uppercase;
+     text-align: center;
+     visibility: hidden;
+}
+h3 {
+    font-family: 'Roboto',sans-serif; 
+    font-size: 17px;
+    color: antiquewhite;
+}
+ hr {
+     color:antiquewhite;
+}
+ header {
+     color: antiquewhite;
+     font-family: 'Big Caslon', serif, thin;
+     font-size: 20pt;
+     letter-spacing: 3px;
+     margin-top: 20px;
+     margin-bottom: 0;
+     padding: 0;
+     text-align: center;
+     text-transform: uppercase;
+}
+ h1{
+     margin: 0;
+     padding: 0;
+}
+ #pinkflower{
+     width: 125px;
+     height: 125px;
+}
+ #nav {
+     font-size: 1.5em;
+     list-style-type: none;
+     font-family: 'Avenir', sans-serif, bold;
+     text-transform:uppercase;
+     letter-spacing: 2px;
+     padding: 0;
+     text-align: center;
+}
+ #nav li {
+     display: inline-block;
+     margin: 10px;
+}
+#nav a{
+     display: inline-block;
+     text-decoration: none;
+}
+#nav li a {
+    color: antiquewhite;
+}
+#nav a:hover {
+     color:#dba2a7;
+     transition: 0.4s ease; 
+}
+#nav .active {
+    color:#dba2a7;
+}
+.active li{
+    color: green;
+}
+ .clear{
+     clear:both;
+}
+ #dramamine{
+     margin-top: 1%;
+     margin-bottom: 10%;
+}
+ #dramaminetext p{
+     font-size: 100%;
+     text-align: center;
+     border: solid 2px antiquewhite;
+     font-family: 'Big Caslon', serif, thin;
+     text-transform: uppercase;
+     letter-spacing: 15px;
+     padding: 10px;
+}
+ #streamiconbar {
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+    
+}
+#streamiconbar li{
+    display: inline-block;
+}
+ .streamicon {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+}
+ #dramaminepic {
+     text-align: center;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 70%;
+     max-width: 800px;
+     margin-top: 1%;
+     border: solid rgba(245,244,244,0.35) 20px;
+}
+.about {
+    float:left;
+    text-align: center;
+    overflow: visible;
+    margin-left: 10%;
+}
+ #abouttext {
+     width: 40%;
+     text-align: left;
+     padding: 10px;
+     height: auto;
+     margin-bottom: 20%;
+     margin-top: 5%;
+     margin-left: 0;
+     margin-right: 10%;
+     text-indent: 50px;
+     border-right: solid 2px antiquewhite;
+     float: left;
+     display: inline;
+     overflow: visible;
+}
+ #about p {
+     padding: 10px;
+     font-family: 'Big Caslon', serif, thin;
+     font-size: 100%;
+}
+ #about:after {
+     display: table;
+     clear: both;
+}
+#baileyportrait {
+    border: solid 2px antiquewhite;
+    padding: 10px;
+    height: 50%;
+    width: 40%;
+    max-width: 500px;
+    max-height: 500px;
+    float: left; 
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+    overflow: visible;
+}
+ #events {
+     background:rgba(245,244,244,0.35);
+     width: 60%;
+     display:block;
+     text-align: center;
+     padding: 10px;
+     margin-left: auto;
+     margin-right: auto;
+     height: auto;
+     margin-bottom: 25%;
+     margin-top: 5%;
+}
+ #events p {
+     font-family: 'Big Caslon', serif, thin;
+     letter-spacing: 5px;
+     text-transform: uppercase;
+     text-align: left;
+     padding-left: 10%;
+     padding-right: 10%;
+     display: inline-block;
+}
+ #events a {
+     text-decoration: none;
+     color: #9fa4c4;
+}
+ #shop {
+     background:rgba(245,244,244,0.35);
+     width: 60%;
+     display:block;
+     text-align: center;
+     padding: 10px;
+     margin-left: auto;
+     margin-right: auto;
+     height: auto;
+     margin-bottom: 25%;
+     margin-top: 5%;
+}
+#shop p {
+    font-size: 25px;
+}
+
+.gallery {
+      background:rgba(245,244,244,0.35);
+     width: auto;
+     text-align: center;
+     padding: 10px;
+     margin-left: 10%;
+     margin-right: 10%;
+     height: auto;
+     margin-bottom: 25%;
+     margin-top: 5%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.column {
+    flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+    
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+ #contact {
+     width: 90%;
+     display:inline-block;
+     text-align: center;
+     padding: 40px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 25%;
+     margin-top: 1px;
+}
+#contact h3{
+    font-size: 150%;
+    letter-spacing: 20px;
+    font-family: 'Big Caslon', serif, thin;
+    text-align: center;
+}
+ #contact a {
+     text-decoration: none;
+     color: antiquewhite;
+}
+#contact a:hover {
+    color: #D7969E;
+    transition: 0.4s ease;
+}
+.booking {
+     text-align: center;
+     border: solid 2px antiquewhite;
+     font-family: 'Big Caslon', serif, thin;
+     text-transform: uppercase;
+     letter-spacing: 9px;
+     margin-bottom: 5%;
+}
+.mgmt {
+     text-align: center;
+     border: solid 2px antiquewhite;
+     font-family: 'Big Caslon', serif, thin;
+     text-transform: uppercase;
+     letter-spacing: 9px;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+ #footer {
+     background-color: rgba(245,244,244,0.35);
+     bottom: 0;
+     position: absolute;
+     padding: 0;
+     margin: 0;
+     font-size: 10pt;
+     text-align: center;
+     width: 100%;
+}
+ #footer p {
+     font-family: 'Avenir', sans-serif;
+     font-size: 10pt;
+     padding: 0;
+}
+ 
